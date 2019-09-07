@@ -1,0 +1,32 @@
+header{
+	font-size: 24px;
+	text-align: center;
+	color: forestgreen;
+
+}	
+main{
+	margin-left: 120px;
+}
+
+.gallery{
+	display: inline-flex;
+	float: left;
+	width: 20%;
+	margin: 20px;
+	padding: 150px;
+	padding-left: 12px;
+
+
+}
+
+img{
+	width: 100%;
+	border-radius: 5px;
+   
+}
+
+img:hover{
+	transform: scale(2,2);
+	transition: .3s transform;
+}
+
